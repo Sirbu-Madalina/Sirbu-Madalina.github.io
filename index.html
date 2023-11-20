@@ -1,11 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cup of Cozy</title>
+    <link rel="stylesheet" href="css/bsstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Page Start -->
 </head>
 <body>
-    Hello
+
+ <!-- INSERT THE BG-IMAGE  -->
+ <!-- <img src="img/freshcoffee.jpg" class="bg-img" alt="Bg image"> -->
+
+
+  <!-- Navigation Bar - LOGO AND NAME -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow p-3">
+
+<!-- LOGO IMAGE -->
+      <a class="navbar-brand" href="/">
+        <div class="logo-image">
+          <img src="../img/whitelogo.png" class="img-fluid">
+        </div>
+      </a>
+
+    <a class="navbar-brand" href="#"><h2><strong>Cup of Cozy</strong></h2></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+<!-- Navigation Bar - Home / Preparation / Coffee Shops -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto"> <!-- ms-auto aligns left-->
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><h3><strong>Home</strong></h3><span class="sr-only"></span></a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#preparation"><h3><strong>Preparations</strong></h3></a>
+          </li>
+          
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-light ">
+            <a class="nav-link" href="#shops"><h3><strong>COFFEE SHOPS</strong></h3></a>
+          </button>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    
+
+<!-- THE TEXT ON THE CUP -->
+  <div class="container-1">
+   <div class="center-text">Enjoy the day different...</div>
+  </div>
+
+  <!-- THE TEXT DOWN THE FIRST IMAGE -->
+  <div class="container-2" style="background-color:bs-secondary" id="preparation">
+
+  <!-- Add content here -->
+  <h1 class="text-center mt-5 line-text ">It all starts with....</h1> 
+  
+<!-- THE ROW OF IMAGES -->
+<div class="row justify-content-center buuu">
+  <div class="col-lg-3 col-md-4 col-xs-4 col-12 thumb d-flex align-items-center flex-column justify-content-center">
+    <a class="thumbnail" href="#">
+      <img src="../img/coffee-cherry.jpg" alt="..." class="rounded-circle" width="250" height="230">
+    </a>
+      <div class="text-cherry">
+        <h3>Coffee cherry</h3>
+      </div>
+   </div>
+
+  <div class="col-lg-3 col-md-4 col-xs-4  col-12 thumb d-flex align-items-center flex-column justify-content-center">
+      <a class="thumbnail" href="#">
+        <img src="../img/roasting.jpg" alt="..." class="rounded-circle" width="250" height="230">
+      </a>
+      <div class="text-roasting">
+        <h3>Roasting</h3>
+      </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-xs-4  col-12 thumb  d-flex  flex-column align-items-center justify-content-center">
+    <a class="thumbnail" href="#">
+      <img src="../img/enjoycoffee.jpg" alt="..." class="rounded-circle" width="250" height="230">
+    </a>
+    <div class="text-enjoy">
+      <h3>Time to enjoy</h3>
+    </div>
+</div>
+
+<!-- CHOOSE YOUR WAY TO PREPARE COFFEE -->
+<div class="way-container">
+   <!-- Add content here -->
+   <h1 class="text-center mt-5 line-text ">Choose your way to prepare coffee</h1> 
+   </div>
+</div>
+  </div>
+
+  
+<!-- EXPRESSO -->
+<div class="img-wrapper">
+  <div class="left-text">Espresso</div>
+    <div class="left-text-expresso">There is nothing better than a bitter, rich espresso shot with a layer of foamy crema.</div>
+     <img class="img-responsive" src="../img/expresso.jpg">
+<div class="img-overlay">
+   <a href="https://www.acouplecooks.com/how-to-make-espresso/">
+   <button class="btn btn-lg btn-light bottom-with-shadow bg-light p-6 m-5">How to make it...</button>
+   </a>
+ </div>
+</div>
+
+
+<!--   <div class="choose-the-way-container">
+    <div class="row-1">
+        <div class="col-12">
+          <div class="left-text">Expresso</div>
+              <div class="left-text-expresso">There is nothing better than a bitter, rich espresso shot with a layer of foamy crema.
+              </div>
+              <img src="../img/expresso.jpg" class="img-fluid w-100" alt="Image 1" >
+              
+            </div>
+            </div> -->
+<!-- TURKISH COFFEE -->
+<div class="img-wrapper">
+  <div class="right-text">Turkish coffee</div>
+  <div class="right-text-expresso">Turkish coffee is more aromatic and thicker compared to other coffees.</div>
+  <img class="img-responsive" src="../img/turkish.jpg">
+
+  <div class="button2">
+  <div class="img-overlay">
+    <a href="https://foolproofliving.com/how-to-make-turkish-coffee/">
+    <button class="btn btn-lg btn-light bottom-with-shadow bg-light p-6 m-5">How to make it...</button>
+    </a>
+  </div>
+   
+  </div>
+</div>
+
+
+             
+<!-- FRENCH PRESS -->
+<div class="img-wrapper">
+   <div class="left-text">French Press</div>
+     <div class="left-text-expresso">It is perfect for making multiple cups of heavy-bodied coffee in 4 minutes.</div>
+      <img class="img-responsive" src="../img/french.jpg">
+ <div class="img-overlay">
+    <a href="https://www.stumptowncoffee.com/pages/brew-guide-french-press">
+    <button class="btn btn-lg btn-light bottom-with-shadow bg-light p-6 m-5">How to make it...</button>
+    </a>
+  </div>
+</div>
+
+
+<!-- COFFEE SHOPS -->
+  <div class="coffee-shops-container" id="shops">
+    <!-- Add content here -->
+    <h1 class="text-center mt-5 line-text ">Coffee shops</h1> 
+  </div>
+
+  <!-- THE OTHER ROW OF IMAGES (COFFEE SHOPS) -->
+  <div class="row justify-content-center buuu ">
+    <div class="col-lg-3 col-md-3 col-xs-4 col-12 thumb d-flex align-items-center flex-column justify-content-center mx-6">
+      <a class="thumbnail" href="#">
+        <img src="../img/starbucks.jpg" alt="..." class="rounded-corners" width="350" height="430">
+      </a>
+        <div class="text-starbucks line-text-1">
+          <h2>Starbucks</h2>
+        </div>
+     </div>
+
+     <div class="col-lg-3 col-md-3 col-xs-4  col-12 thumb d-flex align-items-center flex-column justify-content-center mx-3">
+      <a class="thumbnail" href="#">
+        <img src="../img/lavazza.jpg" alt="..." class="rounded-corners" width="350" height="430">
+      </a>
+      <div class="text-Lavazza line-text-1">
+        <h2>Lavazza</h2>
+      </div>
+  </div>
+  
+    <div class="ccol-lg-3 col-md-3 col-xs-4  col-12 thumb d-flex align-items-center flex-column justify-content-center">
+        <a class="thumbnail" href="#">
+          <img src="../img/Mccafe.jpeg" alt="..." class="rounded-corners" width="350" height="430">
+        </a>
+        <div class="text-McCafe line-text-1">
+          <h2>McCafe</h2>
+        </div>
+    </div>
+  </div>
+  
+
+  <!-- THE END -->
+<div class="container-fluid bg-white p-3">
+  <div class="container-text">
+     <p class="text-center" style="color: #260D05; font-family: 'Gabriola', sans-serif; font-size: 50px;">Cup of cozy</p>
+  </div>
+      <div class="text-center">
+        <img src="../img/coffeelogo.png" alt="Image description" width="200" height="150">
+      </div> 
+<br>
+
+ <!-- SOCIAL ICONS -->
+<div class="container mt-5 text-center">
+  <div class="row">
+   <div class="d-flex flex-row col-md-4 text-center">
+    <a><i class="fa-brands px-2 fs-3 fa-facebook"></i></a>
+     <p class="text-center" style="color: #260D05; font-family: 'Gabriola', sans-serif; font-size: 20px;">Cup of cozy</p>
+   </div>
+
+   <div class="d-flex flex-row col-md-4 text-center">
+     <i class="fab px-2 fs-3 fa-instagram"></i>
+     <p class="text-center" style="color: #260D05; font-family: 'Gabriola', sans-serif; font-size: 20px;">cup_of_cozy</p>
+   </div>
+
+   <div class="d-flex flex-row col-md-4 text-center">
+    <i class="fa-brands px-2 fs-3 fa-twitter"></i>
+     <p class="text-center" style="color: #260D05; font-family: 'Gabriola', sans-serif; font-size: 20px;">cup.of.cozy</p>
+   </div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
 </body>
 </html>
